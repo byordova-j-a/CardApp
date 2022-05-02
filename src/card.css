@@ -1,0 +1,54 @@
+.Card{
+
+    padding:20px; 
+    background-color: rgb(248, 212, 157);
+    border:2px solid rgb(221, 181, 120);
+    width:16vw;
+    height: 32vh;
+    border-radius: 5px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+.CardPicture{
+
+    display: flex; 
+    background-color: white;
+    justify-content: center;
+    border:2px solid rgb(221, 181, 120);
+    border-radius: 5px 5px 0px 0px;  
+}
+
+.Card img{
+   
+    padding:10px;
+    height:14vh;
+}
+
+.PanelButton{
+
+    font-size: 2vh;
+    display:flex;
+    flex-direction: row;
+    height: 3vh;
+    border-bottom:2px solid rgb(221, 181, 120);
+    border-left:2px solid rgb(221, 181, 120);
+    border-right:2px solid rgb(221, 181, 120);
+}
+
+.PanelInform{
+
+    padding: 5px;
+    height: 10vh;
+    border-bottom:2px solid rgb(221, 181, 120);
+    border-left:2px solid rgb(221, 181, 120);
+    border-right:2px solid rgb(221, 181, 120);
+    background-color: rgb(255, 236, 200);
+    border-radius: 0px 0px 5px 5px;
+}
+
+.PanelInform p{
+    
+    padding:0px;
+    margin:0px;
+    margin-top:5px;
+}

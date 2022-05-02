@@ -1,0 +1,95 @@
+.CardsRow{
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom:30px;
+    height:auto;
+}
+
+.Header{
+
+    display:flex;
+    flex-direction: row;
+    height: 12vh;
+    width:100vw;
+    border-bottom:2px solid rgb(221, 181, 120);
+    background-color: rgb(248, 212, 157);
+}
+
+.CardsArea{
+
+    margin:20px;
+}
+
+.Back {
+
+    align-items:center;
+    flex-direction: row;
+    height: 100%;
+    position:absolute;
+    left:0px;
+}
+
+.Forward {
+
+    align-items:center;
+    flex-direction: row;
+    height: 100%;
+    position:absolute;
+    left:54px;
+}
+
+.NumberPage{
+
+        align-items:center;
+        flex-direction: row;
+        height: 100%;
+        display:flex;
+        position:absolute;
+        left:30px; 
+}
+
+.Title{
+
+    align-self: center;
+    font-size: 40px;
+    margin-left:auto;
+    padding-right:40px;
+    color: rgb(243, 230, 255);
+    text-shadow:rgba(0, 0, 255, 0.3)  4px 4px 1px,
+    #996633 1px 1px 0,   #996633 -1px -1px 0, 
+    #996633 -1px 1px 0,   #996633 1px -1px 0;
+}
+
+.Navigate{
+
+    margin-left:20px;
+    width:140px;
+    height:50%;
+    align-self: center;
+    font-size: 25px;
+    position: relative;
+}
+
+.ToggleLiked{
+
+    align-self: center;
+    padding: 10px;
+    display:flex;
+    flex-direction: row;
+    box-shadow: 6px 6px 2px 1px rgba(0, 0, 255, .2);
+    margin-left:40px;
+    font-size: 20px;
+    width:15%;
+    min-width: 200px;
+    height:50%;
+    border:2px solid rgb(221, 181, 120);
+    border-radius: 5px;
+}
+
+.ToggleLiked:active{
+    
+    box-shadow: none;
+    transform: translate(6px,6px);
+}
