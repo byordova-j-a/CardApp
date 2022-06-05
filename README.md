@@ -1,4 +1,4 @@
-Приложение для просмотра карточек. Информация для карточек приходит с публичного api https://amiiboapi.com. Написано на React и Redux
+Приложение для просмотра карточек. Информация для карточек приходит с публичного api https://amiiboapi.com. Написано на React и Redux. Приложение выложено на github pages https://byordova-j-a.github.io/
 
 
 # Getting Started with Create React App
