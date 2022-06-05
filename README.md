@@ -1,3 +1,6 @@
+Приложение для просмотра карточек. Информация для карточек приходит с публичного api https://amiiboapi.com. Написано на React и Redux
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
